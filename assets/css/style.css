@@ -264,6 +264,37 @@ input[type=submit] {
 @media only screen and ( max-width: 640px ) {
 	#logo {
 		color: red;
+		clear: both;
+    	width: 100%;
+	}
+	.container {
+		margin-left: 0;
+	}
+	#mypic {
+		width: 100%;
+	}
+	header div nav {
+		clear: both;
+	}
+
+	header div nav a {
+		margin: auto 20px auto 20px;
+		border: none;
+	}
+
+	.main-section h1 {
+		font-size: 20px;
+		padding-bottom: 0;
+		width: 95%;
+		margin: 10px 10px 10px 10px;
+	}
+	.main-section {
+		width: 95%;
+		margin: 10px 10px 10px 10px;
+	}
+	.sidebar {
+	    width: 95%;
+    	margin: 10px 10px 10px 10px;
 	}
 }
 
